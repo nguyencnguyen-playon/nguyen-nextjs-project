@@ -4,12 +4,8 @@ import { Header } from '../Header';
 
 const Container = styled.div`
     display: flex;
-    align-items: center;
-    justify-content: center;
     background: #F7FAFC;
-    flex:1;
-    height: 100vh;
-    width: 100%;
+    flex: 1;
 `
 
 export const LayoutContent = ({ children }: {
@@ -22,6 +18,5 @@ export const LayoutContent = ({ children }: {
                 {children}
             </Container>
         </>
-
     )
 }

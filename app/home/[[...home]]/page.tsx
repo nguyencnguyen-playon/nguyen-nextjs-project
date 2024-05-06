@@ -1,5 +1,5 @@
-import { Home } from '@/views/HomeView';
+import { HomeView } from '@/views/HomeView';
 
-const HomePage = () => <Home />;
+const HomePage = () => <HomeView />;
 
 export default HomePage;

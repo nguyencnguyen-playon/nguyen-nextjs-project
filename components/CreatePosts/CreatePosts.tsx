@@ -25,9 +25,6 @@ export const CreatePosts = (props: ICreatePostFormProps) => {
     const router = useRouter();
 
     const handleCreate = handleSubmit(async (data) => {
-
-        console.log('data', data)
-
         await fetch(`/api/views/post`, {
             method: 'POST',
             headers: {
@@ -38,8 +35,6 @@ export const CreatePosts = (props: ICreatePostFormProps) => {
         reset();
         router.push('/');
     });
-
-    console.log('errors', errors)
 
     return (
         <form onSubmit={handleCreate}>

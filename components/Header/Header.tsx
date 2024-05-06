@@ -30,6 +30,7 @@ const HeaderContainer = styled.header`
     align-items: center;
     padding: 16px;
     background-color: #2D3748;
+    flex-wrap: wrap;
 `;
 
 const HelloText = styled.span`
