@@ -37,8 +37,14 @@ const PostImage = styled.img`
     border-radius: 8px;
 `   
 
+interface IPosts {
+    name: string;
+    desc: string;
+    image_url: string;
+}
+
 export const HomeView = () => {
-    const [response, setResponse] = useState([]);
+    const [response, setResponse] = useState<Array<IPosts>>([]);
     useEffect(() => {
         const fetchPosts = async () => {
             const posts = await fetch(`/api/views/post`, {

@@ -1,21 +1,16 @@
-'use client'
+'use client';
 import "./globals.css";
 import { ClerkProvider } from '@clerk/nextjs'
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
-export const styles = {
-  fixedContainer: css`
-    display: flex;
-    height: 100%;
-    position: fixed;
-    width: 100%;
-    overflow: auto;
-    flex-direction: column;
-  `
-};
 
 const FixedContainer = styled.div`
-  ${styles.fixedContainer}
+  display: flex;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  overflow: auto;
+  flex-direction: column;
 `;
 
 export default function RootLayout({
