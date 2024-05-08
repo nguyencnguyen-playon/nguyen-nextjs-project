@@ -6,135 +6,114 @@ exports[`PageNumberButtons should match snapshot 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-beqWNU fdMZMg"
-        margin="10px"
+        class="sc-beqWNU khCqBY"
       >
         <button
-          class="sc-hLseSp bnIruC"
+          class="sc-hLseSp fKMYHi"
           disabled=""
         >
           <div
-            class="sc-eDDOjk jsLcAC"
+            class="sc-eDDOjk iDWFnZ"
             disabled=""
           >
             &lt;
           </div>
         </button>
         <button
-          btnbackgroundcolor="blue"
-          class="sc-gueXAH kWcWOh"
+          class="sc-gueXAH iWbJji"
         >
           <div
-            class="sc-dmqGRC tZQpx"
-            color="white"
+            class="sc-dmqGRC htoCon"
           >
             1
           </div>
         </button>
         <button
-          btnbackgroundcolor="blue"
-          class="sc-gueXAH tDkzQ"
+          class="sc-gueXAH iWbJji"
         >
           <div
-            class="sc-dmqGRC emngKN"
-            color="white"
+            class="sc-dmqGRC htoCon"
           >
             2
           </div>
         </button>
         <button
-          btnbackgroundcolor="blue"
-          class="sc-gueXAH tDkzQ"
+          class="sc-gueXAH iWbJji"
         >
           <div
-            class="sc-dmqGRC emngKN"
-            color="white"
+            class="sc-dmqGRC htoCon"
           >
             3
           </div>
         </button>
         <button
-          btnbackgroundcolor="blue"
-          class="sc-gueXAH tDkzQ"
+          class="sc-gueXAH iWbJji"
         >
           <div
-            class="sc-dmqGRC emngKN"
-            color="white"
+            class="sc-dmqGRC htoCon"
           >
             4
           </div>
         </button>
         <button
-          btnbackgroundcolor="blue"
-          class="sc-gueXAH tDkzQ"
+          class="sc-gueXAH iWbJji"
         >
           <div
-            class="sc-dmqGRC emngKN"
-            color="white"
+            class="sc-dmqGRC htoCon"
           >
             5
           </div>
         </button>
         <button
-          btnbackgroundcolor="blue"
-          class="sc-gueXAH tDkzQ"
+          class="sc-gueXAH iWbJji"
         >
           <div
-            class="sc-dmqGRC emngKN"
-            color="white"
+            class="sc-dmqGRC htoCon"
           >
             6
           </div>
         </button>
         <button
-          btnbackgroundcolor="blue"
-          class="sc-gueXAH tDkzQ"
+          class="sc-gueXAH iWbJji"
         >
           <div
-            class="sc-dmqGRC emngKN"
-            color="white"
+            class="sc-dmqGRC htoCon"
           >
             7
           </div>
         </button>
         <button
-          btnbackgroundcolor="blue"
-          class="sc-gueXAH tDkzQ"
+          class="sc-gueXAH iWbJji"
         >
           <div
-            class="sc-dmqGRC emngKN"
-            color="white"
+            class="sc-dmqGRC htoCon"
           >
             8
           </div>
         </button>
         <button
-          btnbackgroundcolor="blue"
-          class="sc-gueXAH tDkzQ"
+          class="sc-gueXAH iWbJji"
         >
           <div
-            class="sc-dmqGRC emngKN"
-            color="white"
+            class="sc-dmqGRC htoCon"
           >
             9
           </div>
         </button>
         <button
-          btnbackgroundcolor="blue"
-          class="sc-gueXAH tDkzQ"
+          class="sc-gueXAH iWbJji"
         >
           <div
-            class="sc-dmqGRC emngKN"
-            color="white"
+            class="sc-dmqGRC htoCon"
           >
             10
           </div>
         </button>
         <button
-          class="sc-hLseSp bnIruC"
+          class="sc-hLseSp fKMYHi"
         >
           <div
-            class="sc-eDDOjk dwbRyI"
+            class="sc-eDDOjk eGdPwj"
           >
             &gt;
           </div>
@@ -144,135 +123,114 @@ exports[`PageNumberButtons should match snapshot 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-beqWNU fdMZMg"
-      margin="10px"
+      class="sc-beqWNU khCqBY"
     >
       <button
-        class="sc-hLseSp bnIruC"
+        class="sc-hLseSp fKMYHi"
         disabled=""
       >
         <div
-          class="sc-eDDOjk jsLcAC"
+          class="sc-eDDOjk iDWFnZ"
           disabled=""
         >
           &lt;
         </div>
       </button>
       <button
-        btnbackgroundcolor="blue"
-        class="sc-gueXAH kWcWOh"
+        class="sc-gueXAH iWbJji"
       >
         <div
-          class="sc-dmqGRC tZQpx"
-          color="white"
+          class="sc-dmqGRC htoCon"
         >
           1
         </div>
       </button>
       <button
-        btnbackgroundcolor="blue"
-        class="sc-gueXAH tDkzQ"
+        class="sc-gueXAH iWbJji"
       >
         <div
-          class="sc-dmqGRC emngKN"
-          color="white"
+          class="sc-dmqGRC htoCon"
         >
           2
         </div>
       </button>
       <button
-        btnbackgroundcolor="blue"
-        class="sc-gueXAH tDkzQ"
+        class="sc-gueXAH iWbJji"
       >
         <div
-          class="sc-dmqGRC emngKN"
-          color="white"
+          class="sc-dmqGRC htoCon"
         >
           3
         </div>
       </button>
       <button
-        btnbackgroundcolor="blue"
-        class="sc-gueXAH tDkzQ"
+        class="sc-gueXAH iWbJji"
       >
         <div
-          class="sc-dmqGRC emngKN"
-          color="white"
+          class="sc-dmqGRC htoCon"
         >
           4
         </div>
       </button>
       <button
-        btnbackgroundcolor="blue"
-        class="sc-gueXAH tDkzQ"
+        class="sc-gueXAH iWbJji"
       >
         <div
-          class="sc-dmqGRC emngKN"
-          color="white"
+          class="sc-dmqGRC htoCon"
         >
           5
         </div>
       </button>
       <button
-        btnbackgroundcolor="blue"
-        class="sc-gueXAH tDkzQ"
+        class="sc-gueXAH iWbJji"
       >
         <div
-          class="sc-dmqGRC emngKN"
-          color="white"
+          class="sc-dmqGRC htoCon"
         >
           6
         </div>
       </button>
       <button
-        btnbackgroundcolor="blue"
-        class="sc-gueXAH tDkzQ"
+        class="sc-gueXAH iWbJji"
       >
         <div
-          class="sc-dmqGRC emngKN"
-          color="white"
+          class="sc-dmqGRC htoCon"
         >
           7
         </div>
       </button>
       <button
-        btnbackgroundcolor="blue"
-        class="sc-gueXAH tDkzQ"
+        class="sc-gueXAH iWbJji"
       >
         <div
-          class="sc-dmqGRC emngKN"
-          color="white"
+          class="sc-dmqGRC htoCon"
         >
           8
         </div>
       </button>
       <button
-        btnbackgroundcolor="blue"
-        class="sc-gueXAH tDkzQ"
+        class="sc-gueXAH iWbJji"
       >
         <div
-          class="sc-dmqGRC emngKN"
-          color="white"
+          class="sc-dmqGRC htoCon"
         >
           9
         </div>
       </button>
       <button
-        btnbackgroundcolor="blue"
-        class="sc-gueXAH tDkzQ"
+        class="sc-gueXAH iWbJji"
       >
         <div
-          class="sc-dmqGRC emngKN"
-          color="white"
+          class="sc-dmqGRC htoCon"
         >
           10
         </div>
       </button>
       <button
-        class="sc-hLseSp bnIruC"
+        class="sc-hLseSp fKMYHi"
       >
         <div
-          class="sc-eDDOjk dwbRyI"
+          class="sc-eDDOjk eGdPwj"
         >
           &gt;
         </div>

@@ -17,7 +17,11 @@ describe('Header', () => {
     test('renders header with correct text', () => {
         render(<Header />);
 
-        const helloText = screen.getByText('Hello');
-        expect(helloText).toBeTruthy();
+        const homeText = screen.getByText('Home');
+        expect(homeText).toBeTruthy();
+    });
+    test('renders correctly', () => {
+        const component = render(<Header />);
+        expect(component).toMatchSnapshot();
     });
 });

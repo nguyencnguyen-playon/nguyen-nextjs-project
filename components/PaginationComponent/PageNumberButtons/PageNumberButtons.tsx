@@ -12,6 +12,7 @@ const PageNumberButton = styled.button`
   width: 30px;
   height: 40px;
   border: 1px solid #dbdbdb;
+  background-color: white;
 `;
 
 const PageNumberText = styled.div`
