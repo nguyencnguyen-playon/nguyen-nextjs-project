@@ -1,53 +1,58 @@
 import styled from 'styled-components';
 import React from 'react';
-import { styles } from './PageNumberButtons.styles';
 
-const PageNumberButtonsContainer = styled.div<{ margin: string }>`
-  ${styles.pageNumberButtonsContainer}
+const PageNumberButtonsContainer = styled.div`
+  display: flex;
+  flex-direction: row;
 `;
 
-const PageNumberButton = styled.button<{ active: boolean; btnBackgroundColor: string }>`
-  ${styles.pageNumberButton}
+const PageNumberButton = styled.button`
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 40px;
+  border: 1px solid #dbdbdb;
 `;
 
-const PageNumberText = styled.div<{ active: boolean; color: string }>`
-  ${styles.pageNumberText}
+const PageNumberText = styled.div`
+  font-weight: 700;
+  color: #000;
 `;
 
 const NavigatePageButton = styled.button`
-  ${styles.navigatePageButton}
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #dbdbdb;
+  background-color: white;
 `;
 
 const NavigatePageText = styled.div<{ disabled: boolean }>`
-  ${styles.navigatePageText}
+  font-weight: 700;
+  color: ${({ disabled }) => (disabled ? '#dbdbdb' : '#000')};
 `;
 
 type PageNumberButtonsProps = {
-  margin: string;
   currentPage: number;
   handlePageChange: (newPage: number) => void;
   endPage: number;
   startPage: number;
-  btnBackgroundColor: string;
-  textBtnColor: string;
   totalPages: number;
 };
 
 export const PageNumberButtons = ({
-  margin,
   currentPage,
   handlePageChange,
   endPage,
   startPage,
-  btnBackgroundColor,
-  textBtnColor,
   totalPages
 }: PageNumberButtonsProps) => {
   if (endPage === startPage) {
     return;
   }
   return (
-    <PageNumberButtonsContainer margin={margin}>
+    <PageNumberButtonsContainer>
       <NavigatePageButton disabled={currentPage === 1} onClick={() => handlePageChange(currentPage - 1)}>
         <NavigatePageText disabled={currentPage === 1}>
           {'<'}
@@ -60,10 +65,8 @@ export const PageNumberButtons = ({
           <PageNumberButton
             key={`page-${pageNumber}`}
             onClick={() => handlePageChange(pageNumber)}
-            active={pageNumber === currentPage}
-            btnBackgroundColor={btnBackgroundColor}
           >
-            <PageNumberText color={textBtnColor} active={pageNumber === currentPage}>
+            <PageNumberText>
               {pageNumber}
             </PageNumberText>
           </PageNumberButton>

@@ -1,8 +1,9 @@
 import React from 'react';
 import { render, fireEvent } from '@testing-library/react';
 import { PageRanges, PaginationComponent } from '../PaginationComponent';
+import { IPosts } from '@/interfaces';
 describe('PaginationComponent', () => {
-    const mockData = [
+    const mockData: Array<IPosts> = [
         {
             "id": 1715015431309,
             "desc": "45454",

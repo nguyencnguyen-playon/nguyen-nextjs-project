@@ -1,9 +1,11 @@
 'use client'
 import { PaginationComponent } from '@/components';
 import { LayoutContent } from '@/components/LayoutContent';
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import Image from 'next/image'
 import styled from 'styled-components';
+import { IPosts } from '@/interfaces';
+import { useQuery } from '@tanstack/react-query';
 
 const Container = styled.div`
     display: flex;
@@ -43,13 +45,8 @@ const PaginationContainer = styled.div`
     height: 1000px;
 `
 
-interface IPosts {
-    name: string;
-    desc: string;
-    image_url: string;
-}
-
-const getPaginatedData = (data: Array<IPosts>, page: number, size: number) => {
+const getPaginatedData = (data?: Array<IPosts>, page: number, size: number) => {
+    if (!data) return { paginatedData: [], totalPages: 0 };
     const startIndex = (page - 1) * size;
     const endIndex = startIndex + size;
     const totalPages = Math.ceil(data.length / size);
@@ -57,37 +54,36 @@ const getPaginatedData = (data: Array<IPosts>, page: number, size: number) => {
     return { paginatedData, totalPages };
 };
 
+const fetchPosts = async () => {
+    const posts = await fetch(`/api/views/post`, {
+        method: 'GET',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+    })
+    const res = await posts.json();
+    return res;
+}
+
 export const HomeView = () => {
-    const [response, setResponse] = useState<Array<IPosts>>([]);
     const [currentPage, setCurrentPage] = useState(1);
     const [pageSize, setPageSize] = useState(5);
+    const { data, isLoading } = useQuery({ queryKey: ['posts'], queryFn: fetchPosts })
 
-    const { paginatedData, totalPages } = getPaginatedData(response, currentPage, pageSize);
+    const { paginatedData, totalPages } = getPaginatedData(data, currentPage, pageSize);
 
 
-    useEffect(() => {
-        const fetchPosts = async () => {
-            const posts = await fetch(`/api/views/post`, {
-                method: 'GET',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-            })
-            const res = await posts.json();
-            setResponse(res);
-        }
-        fetchPosts();
-    }, [])
+    if (isLoading) {
+        return <div>Loading...</div>
+    }
 
     return (
         <LayoutContent>
             <Wrapper>
                 {
-                    response?.length > 0 && (
+                    paginatedData?.length > 0 && (
                         <PaginationContainer>
                             <PaginationComponent
-                                btnBackgroundColor={'#ffffff'}
-                                textBtnColor={'#000000'}
                                 isPaginationEnabled
                                 currentPage={currentPage}
                                 totalPages={totalPages}

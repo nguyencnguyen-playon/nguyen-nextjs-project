@@ -2,7 +2,10 @@
 import "./globals.css";
 import { ClerkProvider } from '@clerk/nextjs'
 import styled from 'styled-components';
-
+import {
+  QueryClient,
+  QueryClientProvider,
+} from '@tanstack/react-query'
 
 const FixedContainer = styled.div`
   display: flex;
@@ -18,6 +21,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const queryClient = new QueryClient()
+
   let signInUrl = '/sign-in';
 
   return (
@@ -26,9 +31,11 @@ export default function RootLayout({
     >
       <html>
         <body>
-          <FixedContainer>
-            {children}
-          </FixedContainer>
+          <QueryClientProvider client={queryClient}>
+            <FixedContainer>
+              {children}
+            </FixedContainer>
+          </QueryClientProvider>
         </body>
       </html>
     </ClerkProvider>

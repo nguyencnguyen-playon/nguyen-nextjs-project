@@ -3,6 +3,7 @@ import React from 'react';
 import { Dropdown } from './DropDown';
 import { PageNumberButtons } from './PageNumberButtons';
 import { styles } from './PaginationComponent.styles';
+import { IPosts } from '@/interfaces';
 
 const Wrapper = styled.div`
   ${styles.wrapper}
@@ -41,10 +42,10 @@ type PaginationComponentProps = {
     currentPage: number;
     totalPages?: number;
     pageSize?: number;
-    data: any[];
+    data: IPosts[];
     onChange: (newPage: number) => void;
     onPageSizeChange: (newPageSize: string) => void;
-    renderItems: (items: any, index: number) => React.ReactNode;
+    renderItems: (items: IPosts, index: number) => React.ReactNode;
     isPaginationEnabled?: boolean;
     btnBackgroundColor?: string;
     textBtnColor?: string;
@@ -59,8 +60,6 @@ export const PaginationComponent = ({
     onPageSizeChange,
     renderItems,
     isPaginationEnabled,
-    btnBackgroundColor = '#ffffff',
-    textBtnColor = '#000000'
 }: PaginationComponentProps) => {
     const handlePageChange = (newPage: number) => {
         onChange(newPage);
@@ -86,30 +85,24 @@ export const PaginationComponent = ({
                         }))}
                     ></Dropdown>
                 </DropdownSection>
-                <PageNumberButtons
-                    margin='0 0 10px 0'
-                    currentPage={currentPage}
-                    totalPages={totalPages}
-                    handlePageChange={handlePageChange}
-                    textBtnColor={textBtnColor}
-                    btnBackgroundColor={btnBackgroundColor}
-                    endPage={endPage}
-                    startPage={startPage}
+                    <PageNumberButtons
+                        currentPage={currentPage}
+                        totalPages={totalPages}
+                        handlePageChange={handlePageChange}
+                        endPage={endPage}
+                        startPage={startPage}
                 />
             </ButtonsSection>
             <ListItemsContainer>
                 {data.map((item, index) => renderItems(item, index))}
             </ListItemsContainer>
             <ButtonsSection align='flex-end'>
-                <PageNumberButtons
-                    margin='10px 0 0 0'
-                    currentPage={currentPage}
-                    totalPages={totalPages}
-                    handlePageChange={handlePageChange}
-                    textBtnColor={textBtnColor}
-                    btnBackgroundColor={btnBackgroundColor}
-                    endPage={endPage}
-                    startPage={startPage}
+                    <PageNumberButtons
+                        currentPage={currentPage}
+                        totalPages={totalPages}
+                        handlePageChange={handlePageChange}
+                        endPage={endPage}
+                        startPage={startPage}
                 />
             </ButtonsSection>
         </Wrapper>
