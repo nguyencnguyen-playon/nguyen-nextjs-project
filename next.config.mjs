@@ -1,4 +1,9 @@
+//next
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    images: {
+        domains: ["via.placeholder.com", "picsum.photos"]
+    }
+}
 
-export default nextConfig;
+export default nextConfig

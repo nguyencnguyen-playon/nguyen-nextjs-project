@@ -11,7 +11,7 @@ export const Header: React.FC<HeaderProps> = () => {
     const { signOut } = useClerk();
     return (
         <HeaderContainer>
-            <HelloText>{`Hello ${user?.emailAddresses[0]?.emailAddress || ''}`}</HelloText>
+            {user && (<HelloText>{`Hello ${user?.emailAddresses[0]?.emailAddress || ''}`}</HelloText>)}
             <SignedIn>
                 <UserButton />
             </SignedIn>

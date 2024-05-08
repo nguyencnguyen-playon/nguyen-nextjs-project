@@ -5,15 +5,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { PostValidation } from '@/models/Schema';
 import type { z } from 'zod';
 
-type ICreatePostFormProps =
-    | {
-        edit: true;
-        id: number;
-        handleStopEditing: () => void;
-    }
-    | { edit?: false };
-
-export const CreatePosts = (props: ICreatePostFormProps) => {
+export const CreatePosts = () => {
     const {
         handleSubmit,
         register,
@@ -44,7 +36,7 @@ export const CreatePosts = (props: ICreatePostFormProps) => {
                 >
                     name
                     <input
-                        id={`username${props.edit ? `-${props.id}` : ''}`}
+                        id={`username`}
                         className="mt-2 w-full appearance-none rounded border px-3 py-2 leading-tight text-gray-700 focus:outline-none focus:ring focus:ring-blue-300/50"
                         {...register('name')}
                     />
@@ -59,11 +51,11 @@ export const CreatePosts = (props: ICreatePostFormProps) => {
             <div className="mt-3">
                 <label
                     className="text-sm font-bold text-gray-700"
-                    htmlFor={`body${props.edit ? `-${props.id}` : ''}`}
+                    htmlFor={`body`}
                 >
                     desc
                     <input
-                        id={`body${props.edit ? `-${props.id}` : ''}`}
+                        id={`body`}
                         className="mt-2 w-full appearance-none rounded border px-3 py-2 leading-tight text-gray-700 focus:outline-none focus:ring focus:ring-blue-300/50"
                         {...register('desc')}
                     />

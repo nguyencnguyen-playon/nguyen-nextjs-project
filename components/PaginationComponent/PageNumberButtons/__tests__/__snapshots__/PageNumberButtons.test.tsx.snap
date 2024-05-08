@@ -1,0 +1,334 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageNumberButtons should match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-beqWNU fdMZMg"
+        margin="10px"
+      >
+        <button
+          class="sc-hLseSp bnIruC"
+          disabled=""
+        >
+          <div
+            class="sc-eDDOjk jsLcAC"
+            disabled=""
+          >
+            &lt;
+          </div>
+        </button>
+        <button
+          btnbackgroundcolor="blue"
+          class="sc-gueXAH kWcWOh"
+        >
+          <div
+            class="sc-dmqGRC tZQpx"
+            color="white"
+          >
+            1
+          </div>
+        </button>
+        <button
+          btnbackgroundcolor="blue"
+          class="sc-gueXAH tDkzQ"
+        >
+          <div
+            class="sc-dmqGRC emngKN"
+            color="white"
+          >
+            2
+          </div>
+        </button>
+        <button
+          btnbackgroundcolor="blue"
+          class="sc-gueXAH tDkzQ"
+        >
+          <div
+            class="sc-dmqGRC emngKN"
+            color="white"
+          >
+            3
+          </div>
+        </button>
+        <button
+          btnbackgroundcolor="blue"
+          class="sc-gueXAH tDkzQ"
+        >
+          <div
+            class="sc-dmqGRC emngKN"
+            color="white"
+          >
+            4
+          </div>
+        </button>
+        <button
+          btnbackgroundcolor="blue"
+          class="sc-gueXAH tDkzQ"
+        >
+          <div
+            class="sc-dmqGRC emngKN"
+            color="white"
+          >
+            5
+          </div>
+        </button>
+        <button
+          btnbackgroundcolor="blue"
+          class="sc-gueXAH tDkzQ"
+        >
+          <div
+            class="sc-dmqGRC emngKN"
+            color="white"
+          >
+            6
+          </div>
+        </button>
+        <button
+          btnbackgroundcolor="blue"
+          class="sc-gueXAH tDkzQ"
+        >
+          <div
+            class="sc-dmqGRC emngKN"
+            color="white"
+          >
+            7
+          </div>
+        </button>
+        <button
+          btnbackgroundcolor="blue"
+          class="sc-gueXAH tDkzQ"
+        >
+          <div
+            class="sc-dmqGRC emngKN"
+            color="white"
+          >
+            8
+          </div>
+        </button>
+        <button
+          btnbackgroundcolor="blue"
+          class="sc-gueXAH tDkzQ"
+        >
+          <div
+            class="sc-dmqGRC emngKN"
+            color="white"
+          >
+            9
+          </div>
+        </button>
+        <button
+          btnbackgroundcolor="blue"
+          class="sc-gueXAH tDkzQ"
+        >
+          <div
+            class="sc-dmqGRC emngKN"
+            color="white"
+          >
+            10
+          </div>
+        </button>
+        <button
+          class="sc-hLseSp bnIruC"
+        >
+          <div
+            class="sc-eDDOjk dwbRyI"
+          >
+            &gt;
+          </div>
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-beqWNU fdMZMg"
+      margin="10px"
+    >
+      <button
+        class="sc-hLseSp bnIruC"
+        disabled=""
+      >
+        <div
+          class="sc-eDDOjk jsLcAC"
+          disabled=""
+        >
+          &lt;
+        </div>
+      </button>
+      <button
+        btnbackgroundcolor="blue"
+        class="sc-gueXAH kWcWOh"
+      >
+        <div
+          class="sc-dmqGRC tZQpx"
+          color="white"
+        >
+          1
+        </div>
+      </button>
+      <button
+        btnbackgroundcolor="blue"
+        class="sc-gueXAH tDkzQ"
+      >
+        <div
+          class="sc-dmqGRC emngKN"
+          color="white"
+        >
+          2
+        </div>
+      </button>
+      <button
+        btnbackgroundcolor="blue"
+        class="sc-gueXAH tDkzQ"
+      >
+        <div
+          class="sc-dmqGRC emngKN"
+          color="white"
+        >
+          3
+        </div>
+      </button>
+      <button
+        btnbackgroundcolor="blue"
+        class="sc-gueXAH tDkzQ"
+      >
+        <div
+          class="sc-dmqGRC emngKN"
+          color="white"
+        >
+          4
+        </div>
+      </button>
+      <button
+        btnbackgroundcolor="blue"
+        class="sc-gueXAH tDkzQ"
+      >
+        <div
+          class="sc-dmqGRC emngKN"
+          color="white"
+        >
+          5
+        </div>
+      </button>
+      <button
+        btnbackgroundcolor="blue"
+        class="sc-gueXAH tDkzQ"
+      >
+        <div
+          class="sc-dmqGRC emngKN"
+          color="white"
+        >
+          6
+        </div>
+      </button>
+      <button
+        btnbackgroundcolor="blue"
+        class="sc-gueXAH tDkzQ"
+      >
+        <div
+          class="sc-dmqGRC emngKN"
+          color="white"
+        >
+          7
+        </div>
+      </button>
+      <button
+        btnbackgroundcolor="blue"
+        class="sc-gueXAH tDkzQ"
+      >
+        <div
+          class="sc-dmqGRC emngKN"
+          color="white"
+        >
+          8
+        </div>
+      </button>
+      <button
+        btnbackgroundcolor="blue"
+        class="sc-gueXAH tDkzQ"
+      >
+        <div
+          class="sc-dmqGRC emngKN"
+          color="white"
+        >
+          9
+        </div>
+      </button>
+      <button
+        btnbackgroundcolor="blue"
+        class="sc-gueXAH tDkzQ"
+      >
+        <div
+          class="sc-dmqGRC emngKN"
+          color="white"
+        >
+          10
+        </div>
+      </button>
+      <button
+        class="sc-hLseSp bnIruC"
+      >
+        <div
+          class="sc-eDDOjk dwbRyI"
+        >
+          &gt;
+        </div>
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
