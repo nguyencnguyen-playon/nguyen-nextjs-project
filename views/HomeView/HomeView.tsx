@@ -45,7 +45,7 @@ const PaginationContainer = styled.div`
     height: 1000px;
 `
 
-const getPaginatedData = (data?: Array<IPosts>, page: number, size: number) => {
+const getPaginatedData = (data?: Array<IPosts>, page = 1, size = 5) => {
     if (!data) return { paginatedData: [], totalPages: 0 };
     const startIndex = (page - 1) * size;
     const endIndex = startIndex + size;
