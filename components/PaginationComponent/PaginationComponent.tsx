@@ -3,7 +3,7 @@ import React from 'react';
 import { Dropdown } from './DropDown';
 import { PageNumberButtons } from './PageNumberButtons';
 import { styles } from './PaginationComponent.styles';
-import { IPosts } from '@/interfaces';
+import { IPost } from '@/interfaces';
 
 const Wrapper = styled.div`
   ${styles.wrapper}
@@ -42,10 +42,10 @@ type PaginationComponentProps = {
     currentPage: number;
     totalPages?: number;
     pageSize?: number;
-    data: IPosts[];
+    data: IPost[];
     onChange: (newPage: number) => void;
     onPageSizeChange: (newPageSize: string) => void;
-    renderItems: (items: IPosts, index: number) => React.ReactNode;
+    renderItems: (items: IPost, index: number) => React.ReactNode;
     isPaginationEnabled?: boolean;
     btnBackgroundColor?: string;
     textBtnColor?: string;

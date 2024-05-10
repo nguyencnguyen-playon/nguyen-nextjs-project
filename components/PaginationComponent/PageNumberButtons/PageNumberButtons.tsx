@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import React from 'react';
+import { RightOutlined, LeftOutlined } from '@ant-design/icons';
 
 const PageNumberButtonsContainer = styled.div`
   display: flex;
@@ -56,7 +57,7 @@ export const PageNumberButtons = ({
     <PageNumberButtonsContainer>
       <NavigatePageButton disabled={currentPage === 1} onClick={() => handlePageChange(currentPage - 1)}>
         <NavigatePageText disabled={currentPage === 1}>
-          {'<'}
+          <LeftOutlined />
         </NavigatePageText>
       </NavigatePageButton>
 
@@ -78,7 +79,7 @@ export const PageNumberButtons = ({
         onClick={() => handlePageChange(currentPage < totalPages ? currentPage + 1 : currentPage)}
       >
         <NavigatePageText disabled={currentPage === totalPages}>
-          {'>'}
+          <RightOutlined />
         </NavigatePageText>
       </NavigatePageButton>
     </PageNumberButtonsContainer>

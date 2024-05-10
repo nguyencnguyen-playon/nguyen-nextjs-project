@@ -8,6 +8,11 @@ exports[`Header renders correctly 1`] = `
       <header
         class="sc-beqWNU boLFlS"
       >
+        <span
+          class="sc-gueXAH dbBicJ"
+        >
+          Hello 
+        </span>
         <div />
         <div
           class="sc-dmqGRC jNxXzf"
@@ -32,6 +37,11 @@ exports[`Header renders correctly 1`] = `
     <header
       class="sc-beqWNU boLFlS"
     >
+      <span
+        class="sc-gueXAH dbBicJ"
+      >
+        Hello 
+      </span>
       <div />
       <div
         class="sc-dmqGRC jNxXzf"

@@ -8,6 +8,11 @@ exports[`CreatePosts renders without errors 1`] = `
       <header
         class="sc-beqWNU boLFlS"
       >
+        <span
+          class="sc-gueXAH dbBicJ"
+        >
+          Hello 
+        </span>
         <div />
         <div
           class="sc-dmqGRC jNxXzf"
@@ -30,45 +35,117 @@ exports[`CreatePosts renders without errors 1`] = `
         class="sc-jTrOVX cicrdZ"
       >
         <div
-          class="sc-gLDymS juxFVD"
+          class="sc-gLDymS bGitmd"
         >
-          <form>
-            <div>
-              <label
-                class="text-sm font-bold text-gray-700"
+          <form
+            autocomplete="off"
+            class="ant-form ant-form-horizontal css-dev-only-do-not-override-1okl62o"
+            id="basic"
+            style="max-width: 600px;"
+          >
+            <div
+              class="ant-form-item css-dev-only-do-not-override-1okl62o"
+            >
+              <div
+                class="ant-row ant-form-item-row css-dev-only-do-not-override-1okl62o"
               >
-                name
-                <input
-                  class="mt-2 w-full appearance-none rounded border px-3 py-2 leading-tight text-gray-700 focus:outline-none focus:ring focus:ring-blue-300/50"
-                  id="username"
-                  name="name"
-                />
-              </label>
+                <div
+                  class="ant-col ant-col-8 ant-form-item-label css-dev-only-do-not-override-1okl62o"
+                >
+                  <label
+                    class="ant-form-item-required"
+                    for="basic_name"
+                    title="Username"
+                  >
+                    Username
+                  </label>
+                </div>
+                <div
+                  class="ant-col ant-col-16 ant-form-item-control css-dev-only-do-not-override-1okl62o"
+                >
+                  <div
+                    class="ant-form-item-control-input"
+                  >
+                    <div
+                      class="ant-form-item-control-input-content"
+                    >
+                      <input
+                        aria-required="true"
+                        class="ant-input css-dev-only-do-not-override-1okl62o ant-input-outlined"
+                        id="basic_name"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div
-              class="mt-3"
+              class="ant-form-item css-dev-only-do-not-override-1okl62o"
             >
-              <label
-                class="text-sm font-bold text-gray-700"
-                for="body"
+              <div
+                class="ant-row ant-form-item-row css-dev-only-do-not-override-1okl62o"
               >
-                desc
-                <input
-                  class="mt-2 w-full appearance-none rounded border px-3 py-2 leading-tight text-gray-700 focus:outline-none focus:ring focus:ring-blue-300/50"
-                  id="body"
-                  name="desc"
-                />
-              </label>
+                <div
+                  class="ant-col ant-col-8 ant-form-item-label css-dev-only-do-not-override-1okl62o"
+                >
+                  <label
+                    class="ant-form-item-required"
+                    for="basic_desc"
+                    title="Description"
+                  >
+                    Description
+                  </label>
+                </div>
+                <div
+                  class="ant-col ant-col-16 ant-form-item-control css-dev-only-do-not-override-1okl62o"
+                >
+                  <div
+                    class="ant-form-item-control-input"
+                  >
+                    <div
+                      class="ant-form-item-control-input-content"
+                    >
+                      <input
+                        aria-required="true"
+                        class="ant-input css-dev-only-do-not-override-1okl62o ant-input-outlined"
+                        id="basic_desc"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div
-              class="mt-5"
+              class="ant-form-item css-dev-only-do-not-override-1okl62o"
             >
-              <button
-                class="rounded bg-blue-500 px-5 py-1 font-bold text-white hover:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-300/50"
-                type="submit"
+              <div
+                class="ant-row ant-form-item-row css-dev-only-do-not-override-1okl62o"
               >
-                Save
-              </button>
+                <div
+                  class="ant-col ant-col-16 ant-col-offset-8 ant-form-item-control css-dev-only-do-not-override-1okl62o"
+                >
+                  <div
+                    class="ant-form-item-control-input"
+                  >
+                    <div
+                      class="ant-form-item-control-input-content"
+                    >
+                      <button
+                        class="ant-btn css-dev-only-do-not-override-1okl62o ant-btn-primary"
+                        type="submit"
+                      >
+                        <span>
+                          Submit
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </form>
         </div>
@@ -79,6 +156,11 @@ exports[`CreatePosts renders without errors 1`] = `
     <header
       class="sc-beqWNU boLFlS"
     >
+      <span
+        class="sc-gueXAH dbBicJ"
+      >
+        Hello 
+      </span>
       <div />
       <div
         class="sc-dmqGRC jNxXzf"
@@ -101,45 +183,117 @@ exports[`CreatePosts renders without errors 1`] = `
       class="sc-jTrOVX cicrdZ"
     >
       <div
-        class="sc-gLDymS juxFVD"
+        class="sc-gLDymS bGitmd"
       >
-        <form>
-          <div>
-            <label
-              class="text-sm font-bold text-gray-700"
+        <form
+          autocomplete="off"
+          class="ant-form ant-form-horizontal css-dev-only-do-not-override-1okl62o"
+          id="basic"
+          style="max-width: 600px;"
+        >
+          <div
+            class="ant-form-item css-dev-only-do-not-override-1okl62o"
+          >
+            <div
+              class="ant-row ant-form-item-row css-dev-only-do-not-override-1okl62o"
             >
-              name
-              <input
-                class="mt-2 w-full appearance-none rounded border px-3 py-2 leading-tight text-gray-700 focus:outline-none focus:ring focus:ring-blue-300/50"
-                id="username"
-                name="name"
-              />
-            </label>
+              <div
+                class="ant-col ant-col-8 ant-form-item-label css-dev-only-do-not-override-1okl62o"
+              >
+                <label
+                  class="ant-form-item-required"
+                  for="basic_name"
+                  title="Username"
+                >
+                  Username
+                </label>
+              </div>
+              <div
+                class="ant-col ant-col-16 ant-form-item-control css-dev-only-do-not-override-1okl62o"
+              >
+                <div
+                  class="ant-form-item-control-input"
+                >
+                  <div
+                    class="ant-form-item-control-input-content"
+                  >
+                    <input
+                      aria-required="true"
+                      class="ant-input css-dev-only-do-not-override-1okl62o ant-input-outlined"
+                      id="basic_name"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div
-            class="mt-3"
+            class="ant-form-item css-dev-only-do-not-override-1okl62o"
           >
-            <label
-              class="text-sm font-bold text-gray-700"
-              for="body"
+            <div
+              class="ant-row ant-form-item-row css-dev-only-do-not-override-1okl62o"
             >
-              desc
-              <input
-                class="mt-2 w-full appearance-none rounded border px-3 py-2 leading-tight text-gray-700 focus:outline-none focus:ring focus:ring-blue-300/50"
-                id="body"
-                name="desc"
-              />
-            </label>
+              <div
+                class="ant-col ant-col-8 ant-form-item-label css-dev-only-do-not-override-1okl62o"
+              >
+                <label
+                  class="ant-form-item-required"
+                  for="basic_desc"
+                  title="Description"
+                >
+                  Description
+                </label>
+              </div>
+              <div
+                class="ant-col ant-col-16 ant-form-item-control css-dev-only-do-not-override-1okl62o"
+              >
+                <div
+                  class="ant-form-item-control-input"
+                >
+                  <div
+                    class="ant-form-item-control-input-content"
+                  >
+                    <input
+                      aria-required="true"
+                      class="ant-input css-dev-only-do-not-override-1okl62o ant-input-outlined"
+                      id="basic_desc"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div
-            class="mt-5"
+            class="ant-form-item css-dev-only-do-not-override-1okl62o"
           >
-            <button
-              class="rounded bg-blue-500 px-5 py-1 font-bold text-white hover:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-300/50"
-              type="submit"
+            <div
+              class="ant-row ant-form-item-row css-dev-only-do-not-override-1okl62o"
             >
-              Save
-            </button>
+              <div
+                class="ant-col ant-col-16 ant-col-offset-8 ant-form-item-control css-dev-only-do-not-override-1okl62o"
+              >
+                <div
+                  class="ant-form-item-control-input"
+                >
+                  <div
+                    class="ant-form-item-control-input-content"
+                  >
+                    <button
+                      class="ant-btn css-dev-only-do-not-override-1okl62o ant-btn-primary"
+                      type="submit"
+                    >
+                      <span>
+                        Submit
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </form>
       </div>

@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import React from 'react';
 import { styles } from './DropDown.styles';
+import { DownOutlined } from '@ant-design/icons';
 
 const DropdownContainer = styled.div`
   ${styles.inputWrapper}
@@ -36,7 +37,7 @@ export const Dropdown: React.FC<DropdownProps> = ({ options, selectedValue, onVa
         ))}
       </DropdownSelect>
       <IconWrapper>
-        {'>'}
+        <DownOutlined />
       </IconWrapper>
     </DropdownContainer>
   );

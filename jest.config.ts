@@ -19,6 +19,8 @@ const config: Config = {
   collectCoverage: true,
   collectCoverageFrom: [
     './components/**/*.{js,jsx,ts,tsx}',
+    '!./components/**/index.ts',
+    '!./components/**/*.styles.ts',
     '!./**/_*.{js,jsx,ts,tsx}',
     '!**/*.d.ts',
     '!**/node_modules/**',

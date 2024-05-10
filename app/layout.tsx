@@ -1,6 +1,7 @@
 'use client';
 import "./globals.css";
 import { ClerkProvider } from '@clerk/nextjs'
+import { AntdRegistry } from '@ant-design/nextjs-registry';
 import styled from 'styled-components';
 import {
   QueryClient,
@@ -31,11 +32,13 @@ export default function RootLayout({
     >
       <html>
         <body>
-          <QueryClientProvider client={queryClient}>
-            <FixedContainer>
-              {children}
-            </FixedContainer>
-          </QueryClientProvider>
+          <AntdRegistry>
+            <QueryClientProvider client={queryClient}>
+              <FixedContainer>
+                {children}
+              </FixedContainer>
+            </QueryClientProvider>
+          </AntdRegistry>
         </body>
       </html>
     </ClerkProvider>
