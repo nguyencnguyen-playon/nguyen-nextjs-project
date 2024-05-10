@@ -78,8 +78,8 @@ export const PaginationComponent = ({
                 <DropdownSection>
                     <Dropdown
                         onValueChange={pageSize => onPageSizeChange(pageSize)}
-                        selectedValue={pageSize?.toString() || '5'}
-                        options={[5, 10, 20].map(opt => ({
+                            selectedValue={pageSize?.toString() || '10'}
+                            options={[10, 15, 20].map(opt => ({
                             label: opt.toString() || '',
                             value: opt.toString() || ''
                         }))}

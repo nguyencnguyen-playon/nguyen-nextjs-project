@@ -20,21 +20,18 @@ const Wrapper = styled.div`
 `
 
 const PaginationContainer = styled.div`
+    display: flex;
     width: 100%;
-    height: 1000px;
+    max-height: fit-content;
+    overflow: auto;
 `
 
 export const HomeView = () => {
     const [currentPage, setCurrentPage] = useState(1);
-    const [pageSize, setPageSize] = useState(5);
+    const [pageSize, setPageSize] = useState(10);
     const { data, isLoading } = useQuery({ queryKey: [SERVICE_CONSTANTS.POST_QUERY_KEY], queryFn: fetchPosts })
 
     const { paginatedData, totalPages } = getPaginatedData(data, currentPage, pageSize);
-
-
-    if (isLoading) {
-        return <LayoutContent><Wrapper></Wrapper></LayoutContent>
-    }
 
     return (
         <LayoutContent>
