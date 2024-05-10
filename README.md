@@ -2,29 +2,26 @@
 ```shell
 .
 ├── README.md                       # README file
-├── .github                         # GitHub folder
-├── .husky                          # Husky configuration
-├── .storybook                      # Storybook folder
-├── .vscode                         # VSCode configuration
 ├── .env                            # environments configuration
+├── .eslintrc.json                  # eslint configuration
 ├── public                          # Public assets folder
-├── scripts                         # Scripts folder
 ├── app                             # Next JS App (App Router)
 ├── components                      # React components
 │   ├── CreatePosts                 # React components
-│   ├── Header                      # 3rd party libraries configuration
-│   ├── LayoutContent               # Locales folder (i18n messages)
-│   ├── PaginationComponent         # Database models
-├── coverage
-├── interfaces
-├── services
-├── providers
-├── libs
-├── models
-├── utils
-├── views
-├── jest.config.js
-└── tsconfig.json                   # TypeScript configuration
+│   ├── Header                      # React components
+│   ├── LayoutContent               # React components
+│   ├── PaginationComponent         # React components
+├── coverage                        # Coverages folder
+├── interfaces                      # Interfaces folder
+├── services                        # Services handle API call folder
+├── providers                       # Providers folder
+├── libs                            # Library third-party folder
+├── models                          # Database models
+├── utils                           # Utils folder
+├── views                           # Views folder
+├── jest.config.js                  # Jest unit test configuration                 
+├── middleware.ts                   # Middleware configuration
+└── next.config.mjs                 # Next configuration
 ```
 
 ## Stacks using
