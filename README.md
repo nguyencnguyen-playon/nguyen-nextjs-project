@@ -65,5 +65,10 @@ All files                              |   98.19 |       80 |      60 |   98.19 
   PostItem.tsx                         |     100 |       50 |     100 |     100 | 25                
 ---------------------------------------|---------|----------|---------|---------|-------------------
 
+### Demo Image
+<img width="1420" alt="image" src="https://github.com/nguyencnguyen-playon/nguyen-nextjs-project/assets/131789853/f8f67894-d900-4153-9c16-1bf637c86fcd">
+<img width="1426" alt="image" src="https://github.com/nguyencnguyen-playon/nguyen-nextjs-project/assets/131789853/cbafcfc5-a61c-4b18-b23e-4b0d71c53c7c">
+<img width="1438" alt="image" src="https://github.com/nguyencnguyen-playon/nguyen-nextjs-project/assets/131789853/5d6a9ebd-ef07-426d-8bcd-69b2586d1f18">
+
 ### Advisor
 Tin Tran tintran@kms-technology.com
