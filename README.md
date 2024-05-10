@@ -42,5 +42,28 @@ Build fully NextJS project from scratch fullstacks
 
 - Node.js 18+ and npm
 
+### Coverage
+
+File                                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------------------------------|---------|----------|---------|---------|-------------------
+All files                              |   98.19 |       80 |      60 |   98.19 |                   
+ CreatePosts                           |   95.31 |      100 |      50 |   95.31 |                   
+  CreatePosts.tsx                      |   95.31 |      100 |      50 |   95.31 | 23-25             
+ Header                                |     100 |       50 |      50 |     100 |                   
+  Header.tsx                           |     100 |       50 |      50 |     100 | 14                
+  index.tsx                            |     100 |      100 |     100 |     100 |                   
+ LayoutContent                         |     100 |      100 |     100 |     100 |                   
+  LayoutContent.tsx                    |     100 |      100 |     100 |     100 |                   
+ PaginationComponent                   |   97.27 |    71.42 |      75 |   97.27 |                   
+  PaginationComponent.tsx              |   97.27 |    71.42 |      75 |   97.27 | 37-39             
+ PaginationComponent/DropDown          |    97.1 |      100 |      50 |    97.1 |                   
+  DropDown.base.ts                     |     100 |      100 |     100 |     100 |                   
+  DropDown.tsx                         |   95.45 |      100 |      50 |   95.45 | 27-28             
+ PaginationComponent/PageNumberButtons |     100 |      100 |      50 |     100 |                   
+  PageNumberButtons.tsx                |     100 |      100 |      50 |     100 |                   
+ PaginationComponent/PostItem          |     100 |       50 |     100 |     100 |                   
+  PostItem.tsx                         |     100 |       50 |     100 |     100 | 25                
+---------------------------------------|---------|----------|---------|---------|-------------------
+
 ### Advisor
 Tin Tran tintran@kms-technology.com
